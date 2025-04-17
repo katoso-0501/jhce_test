@@ -44,7 +44,7 @@ $(window).on('load',function(){
 function loadCompleteAction () {
     setTimeout(() => {
         $('.loading_mat').addClass("phase2");
-    }, 300);
+    }, 600);
 
     $('.main_visual_slick__slideshow').slick(
         {
